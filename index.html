@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-[#F4F5F7] font h-max-[100%] w-max-[576px]max-w-[576px] mx-auto">
+    <section id="loginSection" class="min-h-screen flex flex-col justify-center items-center">
+        <div class="bg-[url('./assets/bg.png')] bg-no-repeat bg-center bg-contain">
+            <img src="assets/Group.png" class="mx-auto mt-11 mb-7" alt="">
+        <form class="bg-[#FFFFFF] p-8 rounded-2xl">
+            <div>
+                <label for="" class="font-semibold">Mobile Number</label><br>
+                <input id="phnNum" class="mt-1 mb-3 rounded-3xl pl-4 py-2.5 bg-[#F4F5F7] w-[333px]" placeholder="Enter your number">
+            </div>
+            <div>
+                <label for="" class="font-semibold">4 digit Pin</label><br>
+                <input id="pin" class="mt-1 rounded-3xl pl-4 bg-[#F4F5F7] py-2.5 w-[333px]" placeholder="Enter 4 Digit Pin">
+            </div>
+            <button type="button" id="loginBtn" class="btn bg-[#0874F2] text-white mt-4 w-full rounded-3xl">Login</button>
+        </form>
+    </section>
+
+    <script src="Script.js"></script>
+</body>
+</html>
